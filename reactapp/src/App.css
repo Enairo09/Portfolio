@@ -1,0 +1,323 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  /* margin-bottom: .5rem; */
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+
+.App {
+  margin-left: 5%;
+  margin-right: 5%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.home{
+width: 100%;
+}
+
+.lien_ext{
+  color: black;
+  text-decoration : none;
+}
+.lien_ext:hover {
+  color:#778899;
+  text-decoration : none;
+}
+
+.navOm {
+  display: flex;
+  flex-wrap: wrap; 
+  margin-bottom: 0;
+  list-style: none;
+  padding: 2%;
+  padding-right: 5%;
+  padding-left: 3%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+  position:fixed;
+  top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
+  left: 0;
+  right: 0;
+  
+}
+
+.logo{
+  width : 70px;
+  margin-left: 2%;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.title{
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.subtitle{
+  color: #778899;
+}
+
+/* =========================
+CARD 
+========================= */
+.rangProjet{
+  display: flex; 
+}
+.workard{
+  /* justify-content: center;
+  align-items: center; */
+  position:relative;
+  width : 100%;
+  height: 350px ;
+  display: flex;
+  flex-direction: row;
+  margin: 0.5%;
+ 
+}
+
+.image{
+  width:100%;
+  height: 350px; 
+  /* z-index: 5 */
+}
+
+
+.pic1{
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 1% 1% 1% 1%;
+}
+
+
+.textCard{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 29, 40, 0.7);
+  /* background-color: rgba(0, 29, 40); */
+  width: 100%;
+  height: 350px;
+  color:#778899;
+  text-decoration : none;
+  border-radius: 1% 1% 1% 1%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  /* z-index: 1 */
+}
+.descriptif{
+  font-size: 0.9rem;
+}
+/* 
+.textCard:hover{
+  color:white;
+  text-decoration : none;
+} */
+
+.lien_extbody{
+  color:#778899;
+  text-decoration : none;
+}
+.lien_extbody:hover {
+  color:white;
+  text-decoration : none;
+}
+
+/* 
+.textCard2{
+  display: flex;
+  height:350px;
+  background-color: #F2F2F2;
+  width:40%;
+  border-radius: 1% 0% 0% 1%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.textCard2:hover{
+  background-color: black;
+  color : white
+} */
+
+/* .textinCard{
+  margin-top: 33%;
+  margin-bottom: 33%;
+} */
+
+@media only screen and (max-width: 800px) {
+  .rangProjet { 
+    display: flex;
+    flex-direction: column;
+  }
+  }
+  
+
+
+/* ==========================
+About Page 
+========================== */
+
+.mePic {
+  min-height: 400px;
+  max-height: 500px;
+  background-image: url("./Ori.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.container{
+ display: 'flex'; 
+ flex-direction: 'column';
+ /* margin-top: 100px; */
+
+}
+
+.row{
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutText{
+  /* margin: 2%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: top;
+}
+.downloadCv{
+  color: #778899;
+  font-size: 14;
+  text-decoration: none
+  }
+.downloadCv:hover{
+color : black;
+text-decoration: none
+}
+/* ==========================
+Contact Page 
+========================== */
+
+.contactPic{
+  margin-top: 10px;
+  min-height: 400px;
+  max-height: 500px;
+  background-image: url("./type.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.contactForm{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  height : 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  width: 100%;
+  height: 40px;
+  padding: 12px 14px;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: none;
+  border-width : thin;
+  border-color: rgba(68, 68, 68, 0.3);
+}
+.inputArea{
+  border-bottom: solid;
+  height: 280px;
+  margin-bottom: 10px;
+  border-width : thin;
+  border-color: rgba(68, 68, 68, 0.3);
+}
+
+.contactButton{
+  border:none;
+  background-color: rgba(0, 29, 40, 0.7);
+  border-radius: 10px;
+  color: white; 
+  height:30px; 
+  width: 80px;
+}
+
+.back-to-top-fixed {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 48px;
+  display: block;
+  bottom: 39px;
+  height: 48px;
+  width: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.popup{
+  position: fixed;  
+  width: 100%;  
+  height: 100%;  
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0, 0.5);  
+  z-index: 6;
+}
+.popupinner{
+  overflow: scroll; 
+  position: absolute;  
+  left: 25%;  
+  right: 25%;  
+  top: 25%;  
+  bottom: 25%;  
+  padding: 3%;
+  margin: auto;  
+  text-align: center;
+  border-radius: 2px;  
+  background-color: white;
+  height: fit-content;
+}
+
+.popupmsg{
+  justify-content: center;
+  text-align: center;
+}
+.button{
+  border : 1px solid black;
+  padding: 2%;
+  color: black;
+  border-radius: 2px;
+}
+.button:hover{
+  color: #778899;
+  text-decoration: none;
+  border : 1px solid #778899;
+  
+}
