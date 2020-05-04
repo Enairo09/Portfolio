@@ -72,7 +72,7 @@ RANG 1
                         <img className="pic1" id='newsroom' src='./images/paper7.jpeg' alt="pic1" />
                     </div>
                     {showLink == "newsroom" ?
-                        <a className="textCard lien_extbody" href='https://atelier83.format.com/' target="_blank" onMouseLeave={(e) => setshowLink('')}>
+                        <a className="textCard lien_extbody" href='https://mynewsroomapp.herokuapp.com/' target="_blank" onMouseLeave={(e) => setshowLink('')}>
                             <h5 className='lien_extbody' >
                                 NewsRoom
                             <p className='descriptif'>Lire les nouvelles du jour et enregistrer ses favoris</p>
@@ -87,7 +87,7 @@ RANG 1
                         <img className="pic1" id='camera' src='./images/camera.jpg' alt="pic1" />
                     </div>
                     {showLink == "camera" ?
-                        <a className="textCard lien_extbody" href='https://atelier83.format.com/' target="_blank" onMouseLeave={(e) => setshowLink('')}>
+                        <a className="textCard lien_extbody" href='https://mymovizapp.herokuapp.com/' target="_blank" onMouseLeave={(e) => setshowLink('')}>
                             <h5 className='lien_extbody'>
                                 My Movies
                             <p className='descriptif'>Voir les derniers films du moment et enregistrer ses favoris</p>
@@ -136,7 +136,7 @@ RANG 2
             {/* ====================================
 RANG 3
             ==================================== */}
-
+            {/* 
             <div className='rangProjet'>
                 <div className='workard sm-6'>
                     <div className="image sm-6" onMouseEnter={(e) => handleMouseOver('mode2')}>
@@ -161,7 +161,7 @@ RANG 3
                         : null}
                 </div>
 
-            </div>
+            </div> */}
 
 
         </div >
