@@ -16,7 +16,7 @@ function Contact() {
     var handleForm = (e) => {
         (e).preventDefault()
         console.log('envoi formulaire', form);
-        fetch('http://localhost:3000/messages', {
+        fetch('api/messages', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: `name=${form.name}&email=${form.email}&message=${form.message}`
