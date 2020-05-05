@@ -8,10 +8,14 @@ function About() {
     return (
         <Container className='container' >
             <Row className='row'>
-                <Col className='aboutPic' md="6">
+                <Col className='aboutPic'
+                //md="6"
+                >
                     <img className='mePic' src='./images/Ori.jpeg' />
                 </Col>
-                <Col className='aboutText' md="6">
+                <Col className='aboutText'
+                //md="6"
+                >
                     <h3 style={{ fontSize: 20 }}>Oriane Mathet</h3>
                     <h4 style={{ color: '#778899', fontSize: 18, marginBottom: 35, marginLeft: 20 }}>Développeuse Web</h4>
                     <h5 style={{ textAlign: 'justify', fontSize: 14 }}>Après sept ans d’expérience à un poste de Styliste en Lingerie et Balnéaire, j'ai décidé de me reconvertir dans le développement web.<br></br>
