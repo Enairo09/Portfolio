@@ -35,7 +35,7 @@ function Contact() {
     return (
         <Container className='container' >
             {popUp ? <PopUpMsg /> : null}
-            <Row style={{ height: 60 }}>
+            <Row className='row' >
                 <h3 style={{ fontSize: 20, marginLeft: 20 }}>Contact Me</h3>
             </Row>
             <Row className='row'>

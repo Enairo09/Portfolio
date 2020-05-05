@@ -394,6 +394,9 @@ text-align: top;
   
 
 @media only screen and (max-width: 600px) {
+  .container{
+    padding-top: 30%;
+  }
   .home{
     padding-top: 20%;
   }
@@ -406,16 +409,15 @@ text-align: top;
     width: 100%;
   }
   .mePic{
-    padding-top: 30%;
     height: 60vh
   }
   .rangProjet { 
     display: flex;
     flex-direction: column;
   }
-  /* .contactForm{
-    height: 60vh
-  } */
+  .contactForm{
+    margin-top: 10%;
+  }
   .contactButton { 
     margin-bottom: 10%;
   }
