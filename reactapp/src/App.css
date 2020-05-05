@@ -396,6 +396,7 @@ text-align: top;
 @media only screen and (max-width: 600px) {
   .container{
     padding-top: 30%;
+    padding-bottom: 30%;
   }
   .home{
     padding-top: 20%;
