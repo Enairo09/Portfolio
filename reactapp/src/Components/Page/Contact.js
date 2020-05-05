@@ -44,18 +44,15 @@ function Contact() {
                 </Col>
                 <Col className='contactText' md="6" sm="12">
                     <form className="contactForm" onSubmit={(e) => handleForm(e)} >
-                        <Row >
-                            <input className='input' type='text' placeholder='Name' onChange={(e) => setform({ ...form, name: e.target.value })} required></input>
-                        </Row>
-                        <Row>
-                            <input className='input' type='email' placeholder='Email' onChange={(e) => setform({ ...form, email: e.target.value })} required></input>
-                        </Row>
-                        <Row>
-                            <textarea className='input inputArea' placeholder='Message' onChange={(e) => setform({ ...form, message: e.target.value })} required />
-                        </Row>
-                        <Row>
-                            <button className='contactButton' type="submit" >Send</button>
-                        </Row>
+
+                        <input className='input' type='text' placeholder='Name' onChange={(e) => setform({ ...form, name: e.target.value })} required></input>
+
+                        <input className='input' type='email' placeholder='Email' onChange={(e) => setform({ ...form, email: e.target.value })} required></input>
+
+                        <textarea className='input inputArea' placeholder='Message' onChange={(e) => setform({ ...form, message: e.target.value })} required />
+
+                        <button className='contactButton' type="submit" >Send</button>
+
                     </form>
                 </Col>
             </Row>
