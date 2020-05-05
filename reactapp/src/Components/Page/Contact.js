@@ -39,10 +39,10 @@ function Contact() {
                 <h3 style={{ fontSize: 20, marginLeft: 20 }}>Contact Me</h3>
             </Row>
             <Row style={{ height: 400 }}>
-                <Col className='contactPic' md="6">
+                <Col className='contactPic' md="6" sm="12">
 
                 </Col>
-                <Col className='contactText' md="6">
+                <Col className='contactText' md="6" sm="12">
                     <form className="contactForm" onSubmit={(e) => handleForm(e)} >
                         <Row >
                             <input className='input' type='text' placeholder='Name' onChange={(e) => setform({ ...form, name: e.target.value })} required></input>
