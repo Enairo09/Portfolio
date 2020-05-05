@@ -425,6 +425,9 @@ text-align: top;
   .lien_extbody{
     color: white;
   }
+  .lien_extbody:hover{
+    color:#778899;
+  }
   /* .contactPic{
     height: 40vh;
   } */
