@@ -5,6 +5,9 @@ import { Card } from 'react-bootstrap';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <Container className='container' >
             <Row className='row'>

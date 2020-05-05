@@ -6,7 +6,9 @@ import { Card } from 'react-bootstrap';
 
 function HomePage() {
     const [showLink, setshowLink] = useState('')
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     var handleMouseOver = (id) => {
         setshowLink(id)
         console.log('hello mouse', id)

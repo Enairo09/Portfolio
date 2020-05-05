@@ -12,7 +12,9 @@ function Contact() {
         message: ''
     });
     const [popUp, setpopUp] = useState(false);
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     var handleForm = (e) => {
         (e).preventDefault()
         console.log('envoi formulaire', form);
