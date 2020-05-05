@@ -38,9 +38,9 @@ function Contact() {
             <Row style={{ height: 60 }}>
                 <h3 style={{ fontSize: 20, marginLeft: 20 }}>Contact Me</h3>
             </Row>
-            <Row style={{ height: 400 }}>
-                <Col className='contactPic' md="6" sm="12">
-
+            <Row className='row'>
+                <Col className='aboutPic' md="6" sm="12">
+                    <img className='contactPic' src='./images/type.jpg' />
                 </Col>
                 <Col className='contactText' md="6" sm="12">
                     <form className="contactForm" onSubmit={(e) => handleForm(e)} >
