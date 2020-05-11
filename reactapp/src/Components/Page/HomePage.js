@@ -43,7 +43,8 @@ RANG 1
                     {showLink == "martina" ?
                         <a className="textCard lien_extbody" href='https://martinasquillace.herokuapp.com/' target="_blank" onMouseLeave={(e) => setshowLink('')}>
                             <h5 className='lien_extbody' id='newsroombis' >
-                                Martina Squillace <p className='descriptif'>site de ecommerce pour une marque de haute couture</p> </h5>
+                                Martina Squillace <p className='descriptif'>site de ecommerce pour une marque de haute couture</p>
+                                <p className='descriptif'>Node.js + React.js + MongoDB</p></h5>
                         </a>
                         : null}
                 </div>
@@ -58,6 +59,7 @@ RANG 1
                             <h5 className='lien_extbody' >
                                 Atelier83
                             <p className='descriptif'>site vitrine pour un espace de coworking de jeunes créateurs</p>
+                                <p className='descriptif'>Design</p>
                             </h5>
                         </a>
                         : null}
@@ -78,6 +80,7 @@ RANG 1
                             <h5 className='lien_extbody' >
                                 NewsRoom
                             <p className='descriptif'>Lire les nouvelles du jour et enregistrer ses favoris</p>
+                                <p className='descriptif'>Node.js + React.js + MongoDB + API news</p>
                             </h5>
                         </a>
                         : null}
@@ -93,6 +96,7 @@ RANG 1
                             <h5 className='lien_extbody'>
                                 My Movies
                             <p className='descriptif'>Voir les derniers films du moment et enregistrer ses favoris</p>
+                                <p className='descriptif'>Node.js + React.js + MongoDB + API news</p>
                             </h5>
                         </a>
                         : null}
@@ -113,6 +117,7 @@ RANG 2
                             <h5 className='lien_extbody'>
                                 Alice Kantor
                             <p className='descriptif'>Portfolio pour une journaliste multimédia</p>
+                                <p className='descriptif'>Design</p>
                             </h5>
                         </a>
                         : null}
@@ -128,6 +133,7 @@ RANG 2
                             <h5 className='lien_extbody' >
                                 Bike Shop
                             <p className='descriptif'>miniApp de vente de vélo</p>
+                                <p className='descriptif'>Node.js / Express</p>
                             </h5>
                         </a>
                         : null}
